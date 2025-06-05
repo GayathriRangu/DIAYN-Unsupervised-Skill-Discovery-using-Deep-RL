@@ -36,9 +36,9 @@ Concurrently to learn r<sub>z</sub>(s, a), any conventional RL method can be uti
 ### Reacher
 >number of skills = 2
 
-| Emergent behavior | Emergent behavior |
-| :----------------: | :----------------: |
-| <video width="320" height="240" controls> <source src="Vid/Reacher/skill0.mp4" type="video/mp4"> Your browser does not support the video tag. </video> | <video width="320" height="240" controls> <source src="Vid/Reacher/skill1.mp4" type="video/mp4"> Your browser does not support the video tag. </video> |
+ Emergent behavior | Emergent behavior 
+ :----------------: | :----------------: 
+  <video width="320" height="240" controls> <source src="Vid/Reacher/skill0.mp4" type="video/mp4"> Your browser does not support the video tag. </video> | <video width="320" height="240" controls> <source src="Vid/Reacher/skill1.mp4" type="video/mp4"> Your browser does not support the video tag. </video> 
 
 ### Hopper
 >number of skills = 20
