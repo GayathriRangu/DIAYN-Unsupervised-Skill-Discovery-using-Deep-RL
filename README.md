@@ -33,7 +33,12 @@ Concurrently to learn r<sub>z</sub>(s, a), any conventional RL method can be uti
 
 ## Results
 > x-axis in all of the corresponding plots in this section are counted by number episode.
+### Reacher
+>number of skills = 2
 
+Emergent behavior| Emergent behavior
+:-----------------------:|:-----------------------:|:-----------------------:
+![](Vid/Reacher/skill0.avi)| ![](Vid/Reacher/skill1.avi)| 
 ### Hopper
 >number of skills = 20
 
@@ -72,15 +77,6 @@ similar to the environment's goal| Emergent behavior| Emergent behavior
 ![](Gifs/MountainCar/skill3.gif)| ![](Gifs/MountainCar/skill7.gif)| ![](Gifs/MountainCar/skill8.gif)
 Reward distribution|Reward distribution|Reward distribution
 ![](Results/MountainCar/skill3.png)| ![](Results/MountainCar/skill7.png)| ![](Results/MountainCar/skill8.png)
-
-## Dependencies
-- gym == 0.17.3
-- mujoco-py == 2.0.2.13
-- numpy == 1.19.2
-- opencv_contrib_python == 4.4.0.44
-- psutil == 5.5.1
-- torch == 1.6.0
-- tqdm == 4.50.0
 
 ## Installation
 ```bash
@@ -135,7 +131,7 @@ python3 main.py --env_name="Hopper-v4" --n_skills=20
 1. _Brain_ dir consists of the neural network structure and the agent decision-making core.
 2. _Common_ consists of minor codes that are common for most RL codes and do auxiliary tasks like logging and... .
 3. _main.py_ is the core module of the code that manages all other parts and makes the agent interact with the environment.
-
+```
 ## 🛠 Known Issues & Fixes
 
 ### 1. `iter` → `niter` Bug
@@ -181,7 +177,7 @@ python3 main.py --env_name="Hopper-v4" --n_skills=20
     ```
 
 ---
-These were only few of the changes listed here, this is in no way a comprehensive and detailed list of all the changes I've made in the repo to transition the codebase to the latest software versions. Please feel free to reachout for any issues/bugs, would love to look into those!
+- **These were only few of the changes listed here, this is in no way a comprehensive and detailed list of all the changes I've made in the repo to transition the codebase to the latest software versions. Please feel free to reachout for any issues/bugs, would love to look into those!**
 
 ## Reference
 
