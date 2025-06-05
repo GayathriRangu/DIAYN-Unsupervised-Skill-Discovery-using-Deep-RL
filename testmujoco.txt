@@ -1,0 +1,11 @@
+import gym
+
+# Use render_mode="human" for the newer versions of gym
+env = gym.make("Hopper-v4", render_mode="rgb_array")
+env.reset()
+
+for _ in range(10000):
+    env.render()  # This should show the environment's render window
+    _, _, done, _, _ = env.step(env.action_space.sample())
+    if done:
+        env.reset()
