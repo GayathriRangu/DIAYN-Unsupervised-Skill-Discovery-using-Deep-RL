@@ -34,11 +34,18 @@ Concurrently to learn r<sub>z</sub>(s, a), any conventional RL method can be uti
 ## Results
 > x-axis in all of the corresponding plots in this section are counted by number episode.
 ### Reacher
->number of skills = 2
+>number of skills = 2 , Episodes = 5000
 
  Emergent behavior | Emergent behavior 
  :----------------: | :----------------: 
  ![](Vid/Reacher/skill0.gif)| ![](Vid/Reacher/skill1.gif)
+
+### Ant
+>number of skills = 5 , Episodes = 500
+
+ Behavior 1 | Behavior 2 | Behavior 3 | Behavior 4 | Behavior 5
+ :----------------: | :----------------: | :----------------: | :----------------: | :----------------: 
+ ![](Vid/Ant/skill0(1).gif)| ![](Vid/Ant/skill1(1).gif) ![](Vid/Ant/skill2.gif)| ![](Vid/Ant/skill3.gif) ![](Vid/Ant/skill5.gif)
 
 
 ### Hopper
