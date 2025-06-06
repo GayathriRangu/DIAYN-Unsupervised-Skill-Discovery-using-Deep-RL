@@ -35,7 +35,7 @@ if __name__ == "__main__":
     del test_env, n_states, n_actions, action_bounds
 
     # Create and seed the environment
-    env = gym.make(params["env_name"], render_mode="rgb_array")
+    env = gym.make(params["env_name"], render_mode="rgb_array") ####while testing the mode needs to be "rgb_array". while trsining it has to be "human"
     #print("env ::", env)
     #env.seed(params["seed"])
     env.observation_space.seed(params["seed"])
