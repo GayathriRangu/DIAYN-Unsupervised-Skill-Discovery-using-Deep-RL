@@ -47,6 +47,12 @@ Concurrently to learn r<sub>z</sub>(s, a), any conventional RL method can be uti
  :----------------: | :----------------: | :----------------: | :----------------: | :----------------: 
  ![](Vid/Ant/skill0(1).gif)| ![](Vid/Ant/skill1(1).gif)| ![](Vid/Ant/skill2.gif)| ![](Vid/Ant/skill3.gif)| ![](Vid/Ant/skill4.gif)
 
+### Half-Cheetah
+>number of skills = 5 , Episodes = 500
+
+ Behavior 1 | Behavior 2 | Behavior 3 | Behavior 4 | Behavior 5
+ :----------------: | :----------------: | :----------------: | :----------------: | :----------------: 
+ ![](Vid/Half-Cheetah/skill0(2).gif)| ![](Vid/Half-Cheetah/skill1(2).gif)| ![](Vid/Half-Cheetah/skill2(1).gif)| ![](Vid/Half-Cheetah/skill3(1).gif)| ![](Vid/Half-Cheetah/skill4(1).gif)
 
 ### Hopper
 >number of skills = 20

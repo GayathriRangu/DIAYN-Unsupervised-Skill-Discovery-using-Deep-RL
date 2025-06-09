@@ -39,7 +39,7 @@ class Play:
             print(f"Play: Evaluating skill {z}.")
             # Create a video writer for each skill
             video_path = f"Vid/skill{z}.avi"
-            video_writer = cv2.VideoWriter(video_path, self.fourcc, 25.0, (250, 250)) # Creates a video file for Skill z at Vid/skill{z}.avi. Frame rate = 50 FPS, frame size = 250x250 pixels.
+            video_writer = cv2.VideoWriter(video_path, self.fourcc, 50.0, (250, 250)) # Creates a video file for Skill z at Vid/skill{z}.avi. Frame rate = 50 FPS, frame size = 250x250 pixels.
             s,_ = self.env.reset() ## unpack observation and discard info
             s = self.concat_state_latent(s, z, self.n_skills)
             print(f"Play: Initial state for skill {z}: {s}.")

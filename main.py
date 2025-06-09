@@ -115,13 +115,13 @@ if __name__ == "__main__":
                 env.render()
                 print(f"==============Step {step} / {max_n_steps}=============")
                 action = agent.choose_action(state)  # The policy outputs actions based on state + skill
-                print(f"Step {step} Action: {action}")
+                # print(f"Step {step} Action: {action}")
 
                 #print("Chosen action:", action)
                 # next_obs, reward, done, _, _ = env.step(action)  # This moves the agent a little
                 next_obs, reward, done, truncated, info = env.step(action)
-                print(f"Step {step}: Terminated={done}, Truncated={truncated}, Reward={reward}")
-                print("Next Obs:", next_obs)
+                # print(f"Step {step}: Terminated={done}, Truncated={truncated}, Reward={reward}")
+                # print("Next Obs:", next_obs)
 
                 #print("Next observation:", next_obs)
                 #print("Reward received:", reward)
